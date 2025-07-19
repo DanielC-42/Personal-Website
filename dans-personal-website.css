@@ -1,0 +1,12 @@
+body{
+    background-image:url(file:///c%3A/Users/acrea/Downloads/stars-2643089_640.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    background-color: rgb(2, 2, 31);
+    color: whitesmoke;
+    padding: 15px;
+    margin: 0 25%;
+}
