@@ -9,4 +9,8 @@ header{
     color: whitesmoke;
     padding: 15px;
     margin: 0 25%;
+    font-family: American Typewriter;
+}
+.stamps{
+    margin: 25px 25%;
 }
