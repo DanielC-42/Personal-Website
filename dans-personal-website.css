@@ -9,8 +9,31 @@ header{
     color: whitesmoke;
     padding: 15px;
     margin: 0 25%;
-    font-family: American Typewriter;
+    font-family:  Courier 'Courier New', Courier, monospace;
 }
 .stamps{
     margin: 25px 25%;
+}
+div{
+    background-color: rgb(2, 2, 31);
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 25%;
+    padding: 10px;
+}
+footer{
+    color: whitesmoke;
+    text-align: center;
+}
+a:link{
+    background-color:darkcyan;
+    border-radius: 8px;
+    padding: 3px;
+}
+a:visited{
+    color:azure;
+}
+a:hover{
+    background-color:aqua;
+    color:black
 }
