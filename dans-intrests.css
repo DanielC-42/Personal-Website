@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/14/fe/6f/14fe6fa5c34e7976daf2dc7d28fd50af.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Courier New', Courier, monospace;
+}
+div{
+    background-color: rgb(2, 2, 31);
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 25%;
+    padding: 10px;
+}
+footer{
+    color: whitesmoke;
+    text-align: center;
+}
+img:hover{
+    transform: scale(1.3)
+}
