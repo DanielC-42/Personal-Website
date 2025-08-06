@@ -18,6 +18,18 @@ footer{
 img:hover{
     transform: scale(1.3)
 }
+.shows{
+    display: flex; 
+}
+/* List Items*/
 ul{
     list-style-position: inside;
+}
+.left{
+    text-align: left;
+    margin: 0;
+}
+.center{
+    text-align: center;
+    margin: 0;
 }
