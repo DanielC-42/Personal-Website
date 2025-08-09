@@ -24,22 +24,25 @@ div{
     margin: 0 25%;
     padding: 10px;
 }
-footer{
+footer, footer a, footer a:visited{
     color: whitesmoke;
     text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top: 50px;
 }
-a:link{
+
+/*Links*/
+nav a:link{
     background-color:rgb(114, 243, 194);
     border-radius: 8px;
     padding: 3px;
 }
-a:visited{
+nav a:visited{
     color:rgb(0, 0, 0);
 }
 a:hover{
     background-color:aqua;
-    color:black
-}
-.home{
-    background-color: rgba(0,0,0,0)
+    color:black;
+    transform: scale(2);
 }

@@ -3,9 +3,9 @@
         "activityBar.activeBackground": "#00b3b3",
         "activityBar.background": "#00b3b3",
         "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#00000099",
-        "activityBarBadge.background": "#dd01dd",
-        "activityBarBadge.foreground": "#ffffff",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#bf00bf",
+        "activityBarBadge.foreground": "#e7e7e7",
         "commandCenter.border": "#e7e7e799",
         "sash.hoverBorder": "#00b3b3",
         "statusBar.background": "#008080",
@@ -23,6 +23,8 @@
         "Inkheart",
         "Skyrim",
         "Stardew",
+        "Storygraph",
+        "Warframe",
         "Webspot"
     ]
 }
