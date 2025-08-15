@@ -6,7 +6,7 @@ body{
 }
 header{
     text-align: center;
-    background-color: rgb(2, 2, 31);
+    background-color: rgb(0, 59, 111);
     color: whitesmoke;
     padding: 15px;
     margin: 0 25%;
@@ -18,7 +18,7 @@ header{
     justify-content: space-between;
 }
 div{
-    background-color: rgb(2, 2, 31);
+    background-color: rgb(0, 59, 111);
     color: whitesmoke;
     text-align: center;
     margin: 0 25%;
@@ -31,18 +31,30 @@ footer, footer a, footer a:visited{
     text-decoration: none;
     margin-top: 50px;
 }
-
+nav {
+    position: fixed;
+    left: 1vw;
+    background-color: rgb(0, 59, 111);
+    padding-right: 25px;
+    font-size: 1.3em;
+}
+ul{
+    list-style: none;
+    margin: 10px;
+}
 /*Links*/
 nav a:link{
-    background-color:rgb(114, 243, 194);
     border-radius: 8px;
-    padding: 3px;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
 }
 nav a:visited{
-    color:rgb(0, 0, 0);
+    color:whitesmoke;
 }
-a:hover{
+nav a:hover{
     background-color:aqua;
     color:black;
-    transform: scale(2);
+    transform: scale(3.3);
 }
+/*---Display Sizes---*/
