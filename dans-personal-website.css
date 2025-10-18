@@ -16,6 +16,7 @@ header{
     margin: 25px 25%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 div{
     background-color: rgb(0, 59, 111);
@@ -34,9 +35,11 @@ footer, footer a, footer a:visited{
 nav {
     position: fixed;
     left: 1vw;
+    top: 140px;
     background-color: rgb(0, 59, 111);
     padding-right: 25px;
     font-size: 1.3em;
+    width: 15%;
 }
 ul{
     list-style: none;
@@ -56,5 +59,6 @@ nav a:hover{
     background-color:aqua;
     color:black;
     transform: scale(3.3);
+    padding: 5px;
 }
 /*---Display Sizes---*/
