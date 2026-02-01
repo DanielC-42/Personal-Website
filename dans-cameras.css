@@ -1,20 +1,29 @@
 body{
     background-color: #003B6F;
 }
+header{
+    text-align: center;
+    background-color: rgb(0, 59, 111);
+    color: whitesmoke;
+    padding: 15px;
+    margin: 0 25%;
+    font-family:  Courier 'Courier New', Courier, monospace;
+}
 
 .container {
     position: relative;
     width: 25%;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 50px;
 }
-.cameras{
-    display: flex;
+.camera{
+    display: block;
     justify-content: space-between;
     flex-wrap: wrap;
     height: auto;
-    width: auto;
+    width: 100vw;
 }
 
 .overlay{
