@@ -16,7 +16,7 @@ header{
     display: inline-block;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 100px;
 }
 .camera{
     display: block;
@@ -24,6 +24,7 @@ header{
     flex-wrap: wrap;
     height: auto;
     width: 100vw;
+    max-width: 200px;
 }
 
 .overlay{
@@ -36,7 +37,7 @@ header{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: ;
 }
 
 .container:hover .overlay {
