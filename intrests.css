@@ -73,6 +73,15 @@ nav a:visited{
 nav a:hover{
     background-color:aqua;
     color:black;
-    transform: scale(3.3);
     padding: 5px;
+}
+/*Links in list items*/
+li > a{
+    text-decoration: none;
+}
+li > a:hover{
+    color: black;
+}
+li > a:visited{
+    color: whitesmoke;
 }

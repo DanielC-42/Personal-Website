@@ -1,0 +1,21 @@
+:root{
+    --dean-green:  	#045c04;
+    --demon-red: #7d0000;
+    --cas-blue: #4682b4;
+}
+body{
+    background: rgb(11, 11, 11);
+    color: whitesmoke;
+    margin: 0 15%;
+    text-align: center;
+}  
+.personal-blerb{
+    background-color: var(--demon-red);
+    padding: 1em;
+    width: 35%;
+} 
+.dean-gif1{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
