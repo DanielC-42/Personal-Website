@@ -12,7 +12,7 @@
     src: url(../../../Downloads/GHOSTWRITER.TTF);
 }
 h1{
-    font-family: Supernatural Knight;
+    font-family: Supernatural Knight, 'Courier New', Courier, monospace;
 }
 main{
     display: grid;

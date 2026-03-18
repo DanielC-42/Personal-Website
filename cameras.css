@@ -9,6 +9,17 @@ header{
     margin: 0 25%;
     font-family:  Courier 'Courier New', Courier, monospace;
 }
+nav a{
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+footer, footer a, footer a:visited{
+    color: whitesmoke;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top: 50px;
+}
 
 .container {
     position: relative;
@@ -24,7 +35,6 @@ header{
     flex-wrap: wrap;
     height: auto;
     width: 100vw;
-    max-width: 200px;
 }
 
 .overlay{
@@ -33,8 +43,8 @@ header{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     opacity: 0;
     transition: .5s ease;
     background-color: grey;
@@ -42,7 +52,7 @@ header{
 
 .container:hover .overlay {
     height: auto;
-    width: auto;
+    width: 500px;
     object-fit: contain;
     opacity: 1;
 }
