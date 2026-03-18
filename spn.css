@@ -3,17 +3,51 @@
     --demon-red: #7d0000;
     --cas-blue: #4682b4;
 }
+@font-face {
+    font-family: Supernatural Knight;
+    src: url(../../../Downloads/Supernatural_Knight.ttf);
+}
+@font-face {
+    font-family: Ghostwriter;
+    src: url(../../../Downloads/GHOSTWRITER.TTF);
+}
+h1{
+    font-family: Supernatural Knight;
+}
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 body{
-    background: rgb(11, 11, 11);
+    background-image: url(https://images.alphacoders.com/638/thumb-1920-638533.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: whitesmoke;
     margin: 0 15%;
     text-align: center;
+    font-family: Ghostwriter;
 }  
+        /*----Nav Bar----*/
+nav {
+    background-color: var(--dean-green);
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+nav a{
+    color: whitesmoke;
+    font-family: Supernatural Knight;
+    text-decoration: none;
+}
+nav a:hover{
+    color: grey;
+}
 .personal-blerb{
     background-color: var(--demon-red);
     padding: 1em;
     width: 35%;
 } 
+
 .dean-gif1{
     margin: 15px;
     display: flex;
