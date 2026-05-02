@@ -1,0 +1,26 @@
+*{
+    background-color: #00a1a7;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, h2{
+    background-color: #2e845b;
+    margin: 0 25%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+nav{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1.6rem;
+}
+nav:hover{
+    color:darkmagenta;
+}
+hr{
+    color: black;
+    border: solid black 2px;
+}

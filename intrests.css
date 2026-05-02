@@ -19,6 +19,9 @@ img:hover{
     transform: scale(1.3)
 }
 a:link{
+    color: rgb(212, 76, 76);
+}
+footer a:link{
     color: whitesmoke;
 }
 /*Interests and display settings*/

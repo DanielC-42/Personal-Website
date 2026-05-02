@@ -62,6 +62,19 @@ nav a:hover{
     padding: 5px;
 }
 /*---Display Sizes---*/
-@media screen {
-    
+@media only screen and (max-width: 700px){
+    nav{
+        position: static;
+    }
+    nav:after{
+        content: \a;
+        white-space: pre;
+    }
+    nav:link{
+        color: red;
+    }
+    .stamps{
+        display: none;
+    }
+
 }
