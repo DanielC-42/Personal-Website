@@ -1,5 +1,12 @@
+@font-face {
+    font-family: Typewriter;
+    src: url(https://file.garden/an8FBfqMJyfIBXZK/jmh_typewriter);
+}
 body{
     background-color: #003B6F;
+}
+.text{
+    font-family: 'Typewriter', Courier, monospace ;
 }
 header{
     text-align: center;
@@ -7,7 +14,7 @@ header{
     color: whitesmoke;
     padding: 15px;
     margin: 0 25%;
-    font-family:  Courier 'Courier New', Courier, monospace;
+    font-family:  Typewriter, 'Courier New', Courier, monospace;
 }
 nav a{
     color: whitesmoke;
@@ -62,6 +69,19 @@ footer, footer a, footer a:visited{
     font-size: 20px;
     position: relative;
     top: 50%;
+    left: 50%;
+    margin: 3%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.camera-name{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 30%;
     left: 50%;
     margin: 3%;
     -webkit-transform: translate(-50%, -50%);

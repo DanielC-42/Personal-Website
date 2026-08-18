@@ -1,0 +1,45 @@
+:root{
+    --warframe-blue: #0B81A0;
+}
+
+body{
+    background-image: url(https://www-static.warframe.com/images/promo/nokko-colony/baby-nokko.jpg);
+    text-align: center;
+}
+h1{
+    color: whitesmoke;
+}
+.most{
+    display: grid;
+    grid: 100%/auto auto auto;
+    grid-gap: 10px;
+}
+.paragraph{
+    background-color: var(--warframe-blue);
+    color: black;
+}
+
+/**Footer**/
+footer{
+    color: whitesmoke;
+    text-align: center;
+}
+footer a:link{
+    color: whitesmoke;
+}
+
+/** Nav Bar**/
+nav {
+    background-color: var(--warframe-blue);
+    color: black;
+    padding: 15px;
+    font-size: 1.3rem;
+}
+nav a{
+    color: whitesmoke;
+    font-family: Supernatural Knight;
+    text-decoration: none;
+}
+nav a:hover{
+    color: grey;
+}

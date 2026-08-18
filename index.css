@@ -1,8 +1,12 @@
+@font-face {
+    font-family: Typewriter;
+    src: url(https://file.garden/an8FBfqMJyfIBXZK/jmh_typewriter);
+}
 body{
     background-image:url(https://cdn.pixabay.com/photo/2017/08/15/08/23/stars-2643089_640.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Typewriter', Courier, monospace;
 }
 header{
     text-align: center;
